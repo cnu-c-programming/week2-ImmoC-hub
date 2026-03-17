@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main()
 {
@@ -11,7 +12,7 @@ int main()
             break;
         }
     }
-    if (flag&&num!=1){
+    if (flag&&num>1){
         printf("true");
     }
     else{
