@@ -11,7 +11,7 @@ int main()
             break;
         }
     }
-    if (flag){
+    if (flag&&num!=1){
         printf("true");
     }
     else{
